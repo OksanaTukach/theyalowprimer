@@ -52,6 +52,7 @@
     display: block;
     position: relative;
     background-size: cover;
+    box-shadow: 0px -5px 5px 0px #4e4b26 inset;
 }
  
 .one_logo {
@@ -275,6 +276,7 @@ h2 {
     margin-right: auto;
     background-image: url("./assets/section_one/Layer\ 10\ copy\ 3.png");
     position: relative;
+    box-shadow: 0px 2px 5px 0px #4e4b26 inset;
 }
 
 .text {
@@ -478,6 +480,7 @@ h2 {
     list-style-image: url(./assets/section_two/Ellipse\ 4\ copy.svg);
     padding-bottom: 34px;
     margin-top: -8px;
+    margin-left: -13px;
 }
 .section_two_list {
     position: absolute;
@@ -598,17 +601,15 @@ footer {
     }
     .list_two {
         background-color: #f5c506;
-        width: 134px;
+        width: 131px;
         height: 62px;
-        text-align: center;
         border-right: 1px solid #dcb105;
         line-height: 41px;
     }
     .list_three{
         background-color: #f5c506;
-        width: 150px;
+        width: 146px;
         height: 62px;
-        text-align: center;
         border-right: 1px solid #dcb105;
         line-height: 41px;
     }
@@ -625,13 +626,13 @@ footer {
         width: 22px;
         height: 21px; 
         margin-left: 8px; 
-        margin-top: 21px; 
+        margin-top: 20px; 
         display: inline-block; 
     }
     .nav_three {
         width: 28px;
-        height: 21px;  
-        margin-left: 12px;
+        height: 21px;
+        margin-left: 9px;
         margin-top: 20px;
         display: inline-block;
      
@@ -652,10 +653,10 @@ footer {
     .nav_two_text {
         display: inline-block;
         margin-right: 14px;
-        vertical-align: text-bottom;
     }
     .nav_three_text {
-
+        display: inline-block;
+        margin-left: 8px;
     }
     .arrow {
         display: none;
@@ -833,7 +834,7 @@ footer {
     }
     .one_twit_text {
         margin-left: 30px;
-        margin-top: 5px;
+        margin-top: 8px;
     }
     .two_twit {
         height: 41px;
@@ -846,7 +847,7 @@ footer {
     }
     .two_twit_text {
         margin-left: 30px;
-        margin-top: 5px;
+        margin-top: 9px;
     }
     .three_twit {
         height: 41px;
@@ -859,14 +860,14 @@ footer {
     }
     .three_twit_text {
         margin-left: 30px;
-        margin-top: 5px;
+        margin-top: 10px;
     }
     .section_two_list {
         display: none;
     }
     .section_two {
         width: 640px;
-        height: 465px;   
+        height: 468px;   
         margin-right: auto;
         margin-left: auto;
         background-color: #474747;
@@ -947,7 +948,7 @@ footer {
     }
     .logo_text {
         display: inline-block;
-        margin-top: 16px;
+        margin-top: 15px;
         margin-left: 105px;
         font-size: 17px;
         letter-spacing: 0px;
